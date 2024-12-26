@@ -46,3 +46,77 @@ return (
   </SafeAreaView>
 );
 }
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#4B4B4B',
+    alignItems: 'center',
+    justifyContent: 'center',
+    paddingHorizontal: 20,
+  },
+  logoContainer: {
+    alignItems: 'center',
+    marginBottom: 30,
+  },
+  logo: {
+    width: 150,
+    height: 150,
+  },
+  appName: {
+    fontSize: 36,
+    color: '#fff',
+    fontWeight: 'bold',
+  },
+  input: {
+    width: '100%',
+    backgroundColor: '#666',
+    borderRadius: 8,
+    padding: 15,
+    marginVertical: 10,
+    color: '#fff',
+  },
+  button: {
+    width: '100%',
+    backgroundColor: '#000',
+    borderRadius: 8,
+    padding: 15,
+    alignItems: 'center',
+    marginVertical: 10,
+  },
+  buttonText: {
+    color: '#fff',
+    fontSize: 16,
+    fontWeight: 'bold',
+  },
+  dividerContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginVertical: 20,
+  },
+  divider: {
+    flex: 1,
+    height: 1,
+    backgroundColor: '#ccc',
+  },
+  dividerText: {
+    marginHorizontal: 10,
+    color: '#ccc',
+  },
+  socialButton: {
+    width: '100%',
+    backgroundColor: '#555',
+    borderRadius: 8,
+    padding: 15,
+    alignItems: 'center',
+    marginVertical: 5,
+  },
+  socialText: {
+    color: '#fff',
+    fontSize: 16,
+  },
+  createAccount: {
+    color: '#00f',
+    marginTop: 20,
+  },
+});
