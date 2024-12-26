@@ -1,10 +1,10 @@
 const firebaseConfig = {
-    apiKey: "YOUR_API_KEY",
-    authDomain: "YOUR_AUTH_DOMAIN",
-    projectId: "YOUR_PROJECT_ID",
-    storageBucket: "YOUR_STORAGE_BUCKET",
-    messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-    appId: "YOUR_APP_ID"
+    apiKey: "AIzaSyByrBDcScaR8jf_iAdadT1NHiVycp7O9jU",
+    authDomain: "vehiscan.firebaseapp.com",
+    projectId: "vehiscan-1dd2e",
+    storageBucket: "vehiscan.firebaseapp.com",
+    messagingSenderId: "495880548904",
+    appId: "1:495880548904:android:616df07eda27b17ee63b1d"
   };
   
   export default firebaseConfig;

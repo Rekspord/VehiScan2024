@@ -1,4 +1,4 @@
-package com.yourproject
+package com.anonymous.VehiScan
 
 import android.app.Application
 import com.facebook.react.ReactApplication
